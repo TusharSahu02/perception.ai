@@ -77,6 +77,7 @@ const Content = styled.div`
   align-items: left;
   justify-content: center;
   flex-direction: column;
+  overflow:visible;
 
   h2 {
     font-size: 4rem;
@@ -134,6 +135,7 @@ const ImageSection = styled.div`
   transform: rotate(-15deg);
   margin-top: -200px;
   transition: all 0.5s;
+  overflow: visible;
 
   &:hover {
     transform: rotate(-5deg);
